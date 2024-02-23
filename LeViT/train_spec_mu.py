@@ -178,9 +178,6 @@ def train(args):
     print('Training time {}'.format(total_time_str))
 
 
-
-
-
 if __name__ == '__main__':
     args = parse_config()
     train(args)
